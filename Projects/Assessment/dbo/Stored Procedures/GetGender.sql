@@ -1,0 +1,5 @@
+﻿CREATE PROCEDURE GetGender
+AS
+BEGIN;
+	SELECT Id, Name FROM Gender
+END;
